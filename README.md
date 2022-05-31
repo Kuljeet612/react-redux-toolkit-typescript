@@ -2,9 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Used dependencies
 
-TypeScript: Adds additional syntax to JavaScript to support safe types
-React-Redux: Official React bindings for Redux
-Redux-Toolkit : Includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
+### `TypeScript`
+Adds additional syntax to JavaScript to support safe types
+### `React-Redux`
+Official React bindings for Redux
+### `Redux-Toolkit` 
+Includes utilities to simplify common use cases like store setup, creating reducers, immutable update logic, and more.
+
 ## Available Scripts
 
 In the project directory, you can run:
