@@ -1,0 +1,9 @@
+.error {
+    display: flex;
+    justify-content: center;    
+    margin-top: 12%;
+}
+img {
+    height: 12rem;
+    width: 12rem;
+}

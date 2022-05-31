@@ -1,0 +1,10 @@
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+  }
+  .imgStyles {
+    height: 9rem;
+    width: 9rem;
+  }

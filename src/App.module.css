@@ -1,0 +1,82 @@
+.header {  
+  height: 3em;
+  padding: 1rem 2rem;
+  background-color: #fff;
+}
+
+.header > nav {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {  
+  font-weight: 600;
+  text-decoration: none;
+  padding-right: 1em;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+nav a:hover {  
+  color: #648c8b;
+}
+
+:global .page {  
+  display: flex;    
+  padding: 0 8vw;
+}
+.wrapper {  
+  padding: 0 8vw;
+  color:#fff;
+  height: auto;
+}
+.templateLogo {
+  display: block;
+  width: 6rem;
+  height: 3rem;
+}
+
+h2 {
+    padding-top: 6rem;
+    margin-bottom: 10px;
+    font-family: Pptelegraf, sans-serif;
+    color: #fff;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+}
+.description {
+    margin-bottom: 30px;
+    font-family: Pptelegraf, sans-serif;    
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: left;
+}
+figure img{
+    width: 35rem;    
+    padding-top: 5rem;
+}
+
+footer {
+  padding-top:2rem;
+}
+.headerWrapper {
+  position: sticky;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+@media(max-width: 360px) {
+  .headerWrapper {
+    position: sticky;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width:25em;
+  }
+}
